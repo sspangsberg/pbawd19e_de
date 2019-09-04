@@ -28,9 +28,7 @@
 
             <?php               
                     //Check if user actually typed something into the textboxes AND pressed submit
-                    if (isset($_POST["submit"]) &&
-                        !empty($_POST["userName"]) &&
-                        !empty($_POST["password"]))
+                    if (isset($_POST["submit"]) && !empty($_POST["userName"]) && !empty($_POST["password"]))
                     {
                         //create helper variables
                         $inputUsername = $_POST["userName"];
